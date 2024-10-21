@@ -1,0 +1,21 @@
+package junit5;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import modelo.entidad.Videojuego;
+import modelo.negocio.GestorVideojuego;
+
+class GestorVideojuegoTest {
+	private GestorVideojuego gf;
+
+	@Test
+	void videojuegoNoExiste() {
+		Videojuego v = new Videojuego("Juego3", "Empresa2", 6);
+		int valorEsperado = 0;
+		int valorObtenido = gf.validar(v);
+		assertEquals(valorEsperado, valorObtenido);
+	}
+
+}
