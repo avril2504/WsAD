@@ -22,4 +22,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="test.DaoCoche"/>
     <fullyQualifiedTypeName name="test.Coche"/>
+    <fullyQualifiedTypeName name="modelo.persistencia.DaoCoche"/>
+    <fullyQualifiedTypeName name="modelo.entidad.Coche"/>
 </qualifiedTypeNameHistroy>
