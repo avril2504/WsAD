@@ -4,10 +4,18 @@ import java.util.Scanner;
 
 public class Coche {
 
+	private int id;
 	private String marca;
 	private String modelo;
 	private String tipo_motor;
 	private double kilometros;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	public String getMarca() {
 		return marca;
 	}
@@ -39,11 +47,18 @@ public class Coche {
 		this.tipo_motor = tipo_motor;
 		this.kilometros = kilometros;
 	}
+	
+	
+
+	public Coche() {
+		super();
+	}
 	@Override
 	public String toString() {
 		return "Coche [marca=" + marca + ", modelo=" + modelo + ", tipo_motor=" + tipo_motor + ", kilometros="
 				+ kilometros + "]";
 	}
+
 	
 	
 }
